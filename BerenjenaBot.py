@@ -2,7 +2,7 @@ from telegram import Updater
 import telegram
 import random
 
-TOKEN = "94177548:AAFUURrUm79A5AuHhVkzmfHbS1X7UAHcbb0"
+TOKEN = ""
 bot = telegram.Bot(TOKEN)
 updater = Updater(TOKEN)
 updater.start_polling()
